@@ -14,9 +14,15 @@ body {
 	border: 1px solid #000;
 	margin-bottom: 20px;
 }
-.icon {
-	width: 16px;
+.meme__icon {
 	height: 16px;
+	width: 16px;
+}
+.meme__icon_close {
+	display: none;
+}
+.meme:nth-child(4) .meme__icon_close {
+	display: block;
 }
 .header__container {
 	text-align: center;
@@ -30,6 +36,15 @@ body {
 	cursor: pointer;
 	margin-bottom: 20px;
 }
+.meme:hover .meme__image{
+	display: block;
+}
+.meme:hover .meme__icon_open {
+	display: none;
+}
+.meme:hover .meme__icon_close {
+	display: block;
+}
 .meme__header {
 	display: flex;
 	justify-content: space-between;
@@ -39,6 +54,13 @@ body {
 	width: 400px;
 	display: block;
 	margin: 0 auto;
+	display: none;
+}
+.meme__image_active {
+	display: block;
+}
+.active {
+	display: block;
 }
 .meme__line {
 	margin-top: 20px;
