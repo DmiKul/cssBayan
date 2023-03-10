@@ -1,0 +1,18 @@
+@import '../variables.css';
+.footer__container {
+	text-align: center;
+}
+.gh-link {
+	font-size: 25px;
+	color: var(--link-text-color);
+	border: 2px solid #000;
+	padding: 5px;
+	background: #000;
+	border-radius: 5px;
+}
+.gh-link:hover {
+	opacity: 0.8;
+}
+.gh-link:active {
+	opacity: 1;
+}
