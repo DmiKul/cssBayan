@@ -86,3 +86,9 @@ body {
 	background: #000;
 	border-radius: 5px;
 }
+.gh-link:hover {
+	opacity: 0.8;
+}
+.gh-link:active {
+	opacity: 1;
+}
