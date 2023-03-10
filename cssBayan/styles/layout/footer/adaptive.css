@@ -1,0 +1,10 @@
+@media (max-width: 850px) {
+	.gh-link {
+		font-size: 20px;
+	}
+}
+@media (max-width: 320px) {
+	.gh-link {
+		font-size: 15px;
+	}
+}

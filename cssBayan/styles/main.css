@@ -2,8 +2,8 @@
 @import './variables.css';
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;700&family=Poppins:wght@200;400;700&display=swap');
 @import './layout/header.css';
-@import './layout/footer.css';
-@import './meme.css';
+@import './layout/footer/footer.css';
+@import './meme/meme.css';
 * {
 	font-family: 'Poppins', sans-serif;
 }
