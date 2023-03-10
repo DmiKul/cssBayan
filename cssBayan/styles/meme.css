@@ -50,6 +50,9 @@
 .meme:active .meme__line {
 	border-color: var(--active-text-color);
 }
+.meme:active .meme__icon {
+	filter: invert(41%) sepia(95%) saturate(682%) hue-rotate(84deg) brightness(108%) contrast(88%);
+}
 .meme__header {
 	display: flex;
 	justify-content: space-between;
