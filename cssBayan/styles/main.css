@@ -61,6 +61,12 @@ body {
 		rotate: 45deg;
 	}
 }
+.meme:active .meme__title {
+	color: rgb(43, 179, 43);
+}
+.meme:active .meme__line {
+	border-color: rgb(43, 179, 43);
+}
 .meme__header {
 	display: flex;
 	justify-content: space-between;
