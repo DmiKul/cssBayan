@@ -15,9 +15,12 @@
 .meme {
 	width: 100%;
 }
-.image {
+.meme__image {
 	height: 400px;
 	width: 400px;
 	display: block;
 	margin: 0 auto;
+}
+.meme__line {
+	margin-top: 20px;
 }
