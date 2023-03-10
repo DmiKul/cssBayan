@@ -7,9 +7,11 @@
 	max-width: 1200px;
 	margin: 0 auto 30px auto;
 }
+.header__container {
+	text-align: center;
+}
 .header__title {
 	font-size: 30px;
-	text-align: center;
 	margin: 30px 0 30px 0;
 }
 .meme {
@@ -23,4 +25,15 @@
 }
 .meme__line {
 	margin-top: 20px;
+}
+.footer__container {
+	text-align: center;
+}
+.gh-link {
+	font-size: 25px;
+	color: #fff;
+	border: 2px solid #000;
+	padding: 5px;
+	background: #000;
+	border-radius: 5px;
 }
