@@ -1,10 +1,10 @@
 :root {
 	--text-color: #000;
 	--background-color: #f0e3d1;
+	--background-color: radial-gradient(circle, rgba(174,238,187,1) 30%, rgba(108,157,215,1) 100%);
 	--link-text-color: #fff;
 	--link-background-color: #000;
 	--line-color: #000;
-	--active-link-background-color:  #18b828;
-	--active-text-color:  #18b828;
+	--active-text-color: #4d1d99;
 	--image-size: 400px;
 }

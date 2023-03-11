@@ -31,6 +31,18 @@
 			rotate: 45deg;
 		}
 	}
+	.meme-list:hover .meme__title {
+		color: var(--text-color);
+	}
+	.meme-list:hover .meme__line {
+		border-color: var(--line-color);
+	}
+	.meme-list:hover .meme__icon {
+		filter: none;
+	}
+	.meme-list:hover .meme__icon {
+		display: block;
+	}
 	.meme:active .meme__title {
 		color: var(--active-text-color);
 	}
@@ -38,6 +50,7 @@
 		border-color: var(--active-text-color);
 	}
 	.meme:active .meme__icon {
-		filter: invert(41%) sepia(95%) saturate(682%) hue-rotate(84deg) brightness(108%) contrast(88%);
+		/* filter: invert(41%) sepia(95%) saturate(682%) hue-rotate(84deg) brightness(108%) contrast(88%); */
+		filter: invert(21%) sepia(34%) saturate(4072%) hue-rotate(248deg) brightness(85%) contrast(113%);
 	}
 }
