@@ -22,7 +22,7 @@
 	}
 	.meme:hover .meme__image {
 		display: block;
-		animation: show-image 1.5s forwards;
+		animation: show-image 1s forwards;
 	}
 	@keyframes show-image {
 		100% {
