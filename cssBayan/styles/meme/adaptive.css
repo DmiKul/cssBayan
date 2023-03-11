@@ -20,6 +20,8 @@
 	:root {
 		--image-size: 400px
 	}
+}
+@media (hover: hover) {
 	.meme:hover .meme__image {
 		display: block;
 		animation: show-image 1s forwards;
