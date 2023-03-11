@@ -6,6 +6,7 @@
 @import './meme/meme.css';
 * {
 	font-family: 'Poppins', sans-serif;
+	-webkit-tap-highlight-color: transparent;
 }
 body {
 	background: var(--background-color);
