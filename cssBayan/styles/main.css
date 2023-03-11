@@ -7,6 +7,7 @@
 * {
 	font-family: 'Poppins', sans-serif;
 	-webkit-tap-highlight-color: transparent;
+	text-shadow: 1px 1px 1px black;
 }
 html, body {
 	height: 100%;
@@ -33,6 +34,20 @@ h1 {
 h2 {
 	font-size: 0.8rem;
 }
+/* .radio-btn {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 100%;
+	border-top: 2px solid var(--line-color);
+	cursor: pointer;
+}
+label {
+	cursor: pointer;
+}
+.radio-btn:checked  {
+	
+} */
 
 @media (min-width: 320px) {
 	html {
