@@ -33,20 +33,8 @@
 	color: var(--active-text-color);
 }
 .meme__icon {
-	/* filter: invert(41%) sepia(95%) saturate(682%) hue-rotate(84deg) brightness(108%) contrast(88%); */
 	filter: invert(21%) sepia(34%) saturate(4072%) hue-rotate(248deg) brightness(85%) contrast(113%);
 }
-/* .meme_active .meme__title {
-	color: var(--text-color);
-}
-.meme_active .meme__icon {
-	filter: none;
-}
-.meme__image_active {
-	height: var(--image-size);
-	display: block;
-} */
-
 .radio-btn {
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -55,12 +43,10 @@
 }
 .radio-btn:checked + .meme__content .meme__image {
 	display: block;
-	/* height: var(--image-size); */
 	animation: show-image 1s forwards;
-
 }
 @keyframes show-image {
 	100% {
-		height: var(--image-size)
+		height: var(--image-size);
 	}
 }

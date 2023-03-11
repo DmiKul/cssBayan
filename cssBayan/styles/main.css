@@ -34,21 +34,6 @@ h1 {
 h2 {
 	font-size: 0.8rem;
 }
-/* .radio-btn {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	width: 100%;
-	border-top: 2px solid var(--line-color);
-	cursor: pointer;
-}
-label {
-	cursor: pointer;
-}
-.radio-btn:checked  {
-	
-} */
-
 @media (min-width: 320px) {
 	html {
 		font-size: 20px;
