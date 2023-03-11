@@ -55,5 +55,12 @@
 }
 .radio-btn:checked + .meme__content .meme__image {
 	display: block;
-	height: var(--image-size);
+	/* height: var(--image-size); */
+	animation: show-image 1s forwards;
+
+}
+@keyframes show-image {
+	100% {
+		height: var(--image-size)
+	}
 }
