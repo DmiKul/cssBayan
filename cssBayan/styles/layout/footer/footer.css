@@ -1,6 +1,10 @@
 @import '../../variables.css';
 @import './adaptive.css';
 
+.footer {
+	display: flex;
+	flex: 0 0 auto;
+}
 .footer__container {
 	text-align: center;
 }

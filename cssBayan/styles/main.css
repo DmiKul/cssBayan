@@ -8,6 +8,9 @@
 	font-family: 'Poppins', sans-serif;
 	-webkit-tap-highlight-color: transparent;
 }
+html, body {
+	height: 100%;
+}
 body {
 	background: var(--background-color);
 }
@@ -15,6 +18,14 @@ body {
 	max-width: 1200px;
 	margin: 0 auto 20px auto;
 	padding: 0 30px 0 30px;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.content {
+	flex: 1 0 auto;
 }
 
 @media (min-width: 320px) {
