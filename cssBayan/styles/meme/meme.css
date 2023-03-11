@@ -11,8 +11,6 @@
 }
 .meme__line {
 	border: 1px solid var(--line-color);
-	margin-bottom: 20px;
-	margin-top: 20px;
 }
 .meme__icon {
 	height: 16px;
