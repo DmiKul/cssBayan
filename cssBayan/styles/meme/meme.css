@@ -1,0 +1,52 @@
+@import '../variables.css';
+@import './adaptive.css';
+
+.meme {
+	width: 100%;
+	border-top: 3px solid var(--active-text-color);
+	cursor: pointer;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+.meme__content {
+	cursor: pointer;
+}
+.meme__title {
+	margin-bottom: 10px;
+}
+.meme__icon {
+	height: 16px;
+	width: 16px;
+	display: none;
+}
+.meme__image {
+	height: 0;
+	width: var(--image-size);
+	margin: 0 auto;
+	display: none;
+}
+.meme__header {
+	display: flex;
+	justify-content: space-between;
+}
+.meme__title {
+	color: var(--active-text-color);
+}
+.meme__icon {
+	filter: invert(21%) sepia(34%) saturate(4072%) hue-rotate(248deg) brightness(85%) contrast(113%);
+}
+.radio-btn {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	display: none;
+}
+.radio-btn:checked + .meme__content .meme__image {
+	display: block;
+	animation: show-image 1s forwards;
+}
+@keyframes show-image {
+	100% {
+		height: var(--image-size);
+	}
+}

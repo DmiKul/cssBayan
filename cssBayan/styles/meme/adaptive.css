@@ -1,0 +1,52 @@
+@import '../variables.css';
+
+@media (min-width: 320px) {
+	.meme__line {
+		margin: 5px 0 5px;
+	}
+}
+@media (min-width: 850px) {
+	.meme__line {
+		margin: 10px 0 10px;
+	}
+}
+/* @media (min-width: 1200px) {
+} */
+@media (hover: hover) {
+	.meme:hover .meme__image {
+		display: block;
+		animation: show-image 1s forwards;
+	}
+	@keyframes show-image {
+		100% {
+			height: var(--image-size)
+		}
+	}
+	.meme:hover .meme__icon_open {
+		animation: turn 0.8s forwards;
+	}
+	@keyframes turn {
+		100% {
+			rotate: 45deg;
+		}
+	}
+	.meme-list:hover .meme__title {
+		color: var(--text-color);
+	}
+	.meme-list:hover .meme__icon {
+		display: block;
+		filter: none;
+	}
+	.meme:active {
+		border-color: var(--active-text-color);
+	}
+	.meme:active .meme__title {
+		color: var(--active-text-color);
+	}
+	.meme:active .meme__icon {
+		filter: invert(21%) sepia(34%) saturate(4072%) hue-rotate(248deg) brightness(85%) contrast(113%);
+	}
+	.meme:active .meme__image {
+		opacity: 0.8;
+	}
+}

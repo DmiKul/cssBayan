@@ -1,0 +1,15 @@
+@media (min-width: 320px) {
+	.gh-link {
+		font-size: 1rem;
+	}
+}
+@media (min-width: 850px) {
+	.gh-link {
+		font-size: 1.25rem;
+	}
+}
+@media (min-width: 1200px) {
+	.gh-link {
+		font-size: 1.56rem;
+	}
+}
