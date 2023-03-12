@@ -1,26 +1,17 @@
 @import '../variables.css';
 
 @media (min-width: 320px) {
-	:root {
-		--image-size: 200px;
-	}
 	.meme__line {
 		margin: 5px 0 5px;
 	}
 }
 @media (min-width: 850px) {
-	:root {
-		--image-size: 250px
-	}
 	.meme__line {
 		margin: 10px 0 10px;
 	}
 }
-@media (min-width: 1200px) {
-	:root {
-		--image-size: 400px
-	}
-}
+/* @media (min-width: 1200px) {
+} */
 @media (hover: hover) {
 	.meme:hover .meme__image {
 		display: block;
